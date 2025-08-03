@@ -3,6 +3,11 @@ import LandingPageCard from './components/LandingPageCard';
 
 const pages = [
   {
+    title: 'NGOs Landing Page',
+    image: 'https://i.ibb.co/mCTVsJYd/Screenshot-47.png',
+    url: 'https://bread-and-bite.netlify.app',
+  },
+  {
     title: 'Food Delivery App',
     image: 'https://i.ibb.co/jqVhnX8/Screenshot-4.png',
     url: 'https://bread-and-bite.netlify.app',
