@@ -1,62 +1,126 @@
-import React from 'react';
-import LandingPageCard from './components/LandingPageCard';
+import React from "react";
+import LandingPageCard from "./components/LandingPageCard";
+import Typewriter from "typewriter-effect";
+import { motion } from "framer-motion";
 
 const pages = [
   {
-    title: 'NGOs Landing Page',
-    image: 'https://i.ibb.co/mCTVsJYd/Screenshot-47.png',
-    url: 'https://bread-and-bite.netlify.app',
+    title: "Ecommerce Store",
+    image: "https://i.ibb.co/mCTVsJYd/Screenshot-47.png",
+    url: "https://shopease-aafaque.app",
+    github: "https://github.com/Aafaque-Nazir/LandingPagesFolder",
   },
   {
-    title: 'Food Delivery App',
-    image: 'https://i.ibb.co/jqVhnX8/Screenshot-4.png',
-    url: 'https://bread-and-bite.netlify.app',
+    title: "NGOs Landing Page",
+    image: "https://i.ibb.co/mCTVsJYd/Screenshot-47.png",
+    url: "https://ngo-aafaque.netlify.app",
+    github: "https://github.com/Aafaque-Nazir/LandingPagesFolder",
   },
   {
-    title: 'My Portfolio',
-    image: 'https://i.ibb.co/r2hPYPmV/Screenshot-2.png',
-    url: 'https://aafaque-portfolio.netlify.app',
+    title: "Food Delivery App",
+    image: "https://i.ibb.co/jqVhnX8/Screenshot-4.png",
+    url: "https://bread-and-bite.netlify.app",
+    github: "https://github.com/Aafaque-Nazir/FoodApp",
   },
   {
-    title: 'Cruise Ship Express',
-    image: 'https://i.ibb.co/KxtjB95V/Screenshot-1.png',
-    url: 'https://cruiseshipexpress.netlify.app',
+    title: "My Portfolio",
+    image: "https://i.ibb.co/r2hPYPmV/Screenshot-2.png",
+    url: "https://aafaque-portfolio.netlify.app",
+    github: "https://github.com/Aafaque-Nazir/Portfolio",
   },
   {
-    title: 'Packers and Movers',
-    image: 'https://i.ibb.co/5xrQ2cCj/Screenshot-3.png',
-    url: 'https://moverspackerslandingpage.netlify.app',
+    title: "Weather App",
+    image: "",
+    url: "https://weather-aafaque.netlify.app/",
+    github: "https://github.com/Aafaque-Nazir/TodoList",
+  },
+  {
+    title: "Tasky - Todo App",
+    image: "",
+    url: "https://tasky-todolist.netlify.app/",
+    github: "https://github.com/Aafaque-Nazir/TodoList",
+  },
+  {
+    title: "Cruise Ship Express",
+    image: "https://i.ibb.co/KxtjB95V/Screenshot-1.png",
+    url: "https://cruiseshipexpress.netlify.app",
+    github: "https://github.com/Aafaque-Nazir/CruiseShip",
+  },
+  {
+    title: "Sea Cros - Cruise Booking",
+    image: "https://i.ibb.co/KxtjB95V/Screenshot-1.png",
+    url: "https://sea-cros.netlify.app",
+    github: "https://github.com/Aafaque-Nazir/CruiseShip",
+  },
+  {
+    title: "Packers and Movers",
+    image: "https://i.ibb.co/5xrQ2cCj/Screenshot-3.png",
+    url: "https://moverspackerslandingpage.netlify.app",
+    github: "https://github.com/Aafaque-Nazir/MoversPackers",
+  },
+  {
+    title: "Random Password Generator",
+    image: "/project2.png",
+    url: "https://password-randoms.netlify.app/",
+    github: "https://github.com/Aafaque-Nazir/pass-generator",
+  },
+  {
+    title: "PassMan - Password Manager",
+    image: "/project3.png",
+    url: "https://passman-passwordmanager.netlify.app/",
+    github: "https://github.com/Aafaque-Nazir/PassManager",
+  },
+  {
+    title: "Currency Converter",
+    image: "/project3.png",
+    url: "https://currenccyconnvverter.netlify.app/",
+    github: "https://github.com/Aafaque-Nazir/CurrecncyConverter",
   },
 ];
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-100 via-slate-200 to-slate-300 p-6 sm:p-12 font-sans">
+    <div className="min-h-screen bg-gradient-to-br from-[#0f172a] via-[#1e293b] to-[#0f172a] text-white p-8 sm:p-14 font-[Poppins]">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
-          <h1 className="text-5xl sm:text-6xl font-black tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-indigo-600 via-pink-500 to-red-500 drop-shadow-lg animate-fade-in p-3">
-            🌟 Explore Landing Experiences
+        {/* Heading */}
+        <motion.div
+          initial={{ opacity: 0, y: -50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="text-center mb-16"
+        >
+          <h1 className="text-4xl sm:text-6xl font-extrabold bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent drop-shadow-lg">
+            <Typewriter
+              options={{
+                strings: [" Every Project in My Learning Journey"],
+                autoStart: true,
+                loop: true,
+                delay: 75,
+                pauseFor: 2000,
+              }}
+            />
           </h1>
-          <p className="text-xl sm:text-2xl mt-4 text-gray-800 font-medium max-w-3xl mx-auto">
-            Sleek, interactive, and crafted with precision — powered by React, Tailwind CSS, and Framer Motion.
+          <p className="text-lg sm:text-xl mt-6 text-gray-300 max-w-2xl mx-auto leading-relaxed">
+            Showcasing all my work — experiments, learnings, and real-world
+            projects. Built with React, Tailwind CSS, and endless curiosity.
           </p>
-          <div className="mt-6 w-32 h-1 mx-auto bg-gradient-to-r from-indigo-400 via-pink-400 to-red-400 rounded-full shadow-md"></div>
-        </div>
-<div className='bg-purple-300/70 p-12 rounded-xl shadow-xl mb-16'>
+        </motion.div>
 
-        <div className="grid gap-10 sm:grid-cols-2 md:grid-cols-3 place-items-center">
+        {/* Projects Grid */}
+        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3 place-items-center">
           {pages.map((page, index) => (
             <LandingPageCard
               key={index}
               title={page.title}
               image={page.image}
               url={page.url}
-              />
-            ))}
+              github={page.github}
+            />
+          ))}
         </div>
-            </div>
 
-        <div className="mt-16 text-center text-sm text-gray-500">
+        {/* Footer */}
+        <div className="mt-20 text-center text-sm text-gray-400">
           © {new Date().getFullYear()} Aafaque Sufiyan Nazir. All rights reserved.
         </div>
       </div>
