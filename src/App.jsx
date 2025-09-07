@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const pages = [
   {
     title: "Ecommerce Store",
-    image: "https://i.ibb.co/mCTVsJYd/Screenshot-47.png",
+    image: "https://i.ibb.co/jZyV94dw/CAF70-BF2-EABA-40-C2-BCC1-8-E0-AF74746-FD.png",
     url: "https://shopease-aafaque.app",
     github: "https://github.com/Aafaque-Nazir/LandingPagesFolder",
   },
@@ -24,20 +24,20 @@ const pages = [
   },
   {
     title: "My Portfolio",
-    image: "https://i.ibb.co/r2hPYPmV/Screenshot-2.png",
+    image: "https://i.ibb.co/dRRZWd1/BA0-AB626-31-DC-41-F0-A77-D-80428-D59-B014.png",
     url: "https://aafaque-portfolio.netlify.app",
     github: "https://github.com/Aafaque-Nazir/Portfolio",
   },
   {
     title: "Weather App",
-    image: "",
+    image: "https://i.ibb.co/qYwxntTC/E58-A0-D5-C-FFC8-44-BD-9658-63-C2-E2462-EFB.png",
     url: "https://weather-aafaque.netlify.app/",
     github: "https://github.com/Aafaque-Nazir/TodoList",
   },
   {
     title: "Tasky - Todo App",
-    image: "",
-    url: "https://tasky-todolist.netlify.app/",
+    image: "https://i.ibb.co/NdNjj3Bz/2-B05-E778-F78-D-4001-851-C-C47-D6-C64-F233.png",
+    url: "https://tasky-aafaque.netlify.app/",
     github: "https://github.com/Aafaque-Nazir/TodoList",
   },
   {
@@ -48,31 +48,31 @@ const pages = [
   },
   {
     title: "Sea Cros - Cruise Booking",
-    image: "https://i.ibb.co/KxtjB95V/Screenshot-1.png",
+    image: "https://i.ibb.co/qYCjsS5V/3-A3-A008-D-21-DC-4-C22-A8-FA-994-D66-CD79-B3.png",
     url: "https://sea-cros.netlify.app",
     github: "https://github.com/Aafaque-Nazir/CruiseShip",
   },
   {
-    title: "Packers and Movers",
-    image: "https://i.ibb.co/5xrQ2cCj/Screenshot-3.png",
-    url: "https://moverspackerslandingpage.netlify.app",
+    title: "Blog Website",
+    image: "https://i.ibb.co/1f7BFTym/2-EB85060-5-A6-F-47-AB-BA05-972119-CDC500.png",
+    url: "https://blogpostapp-aafaque.netlify.app",
     github: "https://github.com/Aafaque-Nazir/MoversPackers",
   },
   {
     title: "Random Password Generator",
-    image: "/project2.png",
+    image: "https://i.ibb.co/ksLtSQnZ/1215-B214-446-A-4-A78-AE95-A78-FA3-F471-E5.png",
     url: "https://password-randoms.netlify.app/",
     github: "https://github.com/Aafaque-Nazir/pass-generator",
   },
   {
     title: "PassMan - Password Manager",
-    image: "/project3.png",
+    image: "https://i.ibb.co/7t2dTK6R/9-A3-ED1-B5-6-AAF-4583-AF94-314-FE9-A52461.png",
     url: "https://passman-passwordmanager.netlify.app/",
     github: "https://github.com/Aafaque-Nazir/PassManager",
   },
   {
     title: "Currency Converter",
-    image: "/project3.png",
+    image: "https://i.ibb.co/hJZHDtmC/356-D914-E-46-A7-4713-A3-F5-80487770-F38-D.png",
     url: "https://currenccyconnvverter.netlify.app/",
     github: "https://github.com/Aafaque-Nazir/CurrecncyConverter",
   },
